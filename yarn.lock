@@ -5515,6 +5515,13 @@ gatsby-source-filesystem@^2.1.56:
     valid-url "^1.0.9"
     xstate "^4.8.0"
 
+gatsby-source-podcast-rss-feed@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/gatsby-source-podcast-rss-feed/-/gatsby-source-podcast-rss-feed-0.1.1.tgz#b2a887deebd08bd70a4517034a6da0758ef01e73"
+  integrity sha512-TozQL+cwMcbR4lsxvMLB7jcMFumSYPJNQhi7pHhs0SW+arePvxqjei9GaHCShkkvXTO6n4D7Gj38flli6JzChg==
+  dependencies:
+    rss-parser "^3.7.3"
+
 gatsby-telemetry@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-1.2.2.tgz#12d7e03373f67e7bd69dedbeda4239f3ff601183"
@@ -10398,6 +10405,14 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
+rss-parser@^3.7.3:
+  version "3.7.6"
+  resolved "https://registry.yarnpkg.com/rss-parser/-/rss-parser-3.7.6.tgz#d521507545a2c5f7b0f015846930c511f3a8dd93"
+  integrity sha512-wWWh3/pPLAPgWyfkCC9jB83jSBenU6VPMymfXiysi8wJxaN7KNkW4vU3Jm8jQxExAribFvXREy+RtaL3XQubeA==
+  dependencies:
+    entities "^1.1.1"
+    xml2js "^0.4.19"
+
 run-async@^2.2.0, run-async@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/run-async/-/run-async-2.4.0.tgz#e59054a5b86876cfae07f431d18cbaddc594f1e8"
@@ -12531,7 +12546,7 @@ xml-parse-from-string@^1.0.0:
   resolved "https://registry.yarnpkg.com/xml-parse-from-string/-/xml-parse-from-string-1.0.1.tgz#a9029e929d3dbcded169f3c6e28238d95a5d5a28"
   integrity sha1-qQKekp09vN7RafPG4oI42VpdWig=
 
-xml2js@^0.4.5:
+xml2js@^0.4.19, xml2js@^0.4.5:
   version "0.4.23"
   resolved "https://registry.yarnpkg.com/xml2js/-/xml2js-0.4.23.tgz#a0c69516752421eb2ac758ee4d4ccf58843eac66"
   integrity sha512-ySPiMjM0+pLDftHgXY4By0uswI3SPKLDw/i3UXbnO8M/p28zqexCUoPmQFrYD+/1BzhGJSs2i1ERWKJAtiLrug==
