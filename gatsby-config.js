@@ -19,6 +19,13 @@ module.exports = {
         feedURL: `https://feeds.buzzsprout.com/1004428.rss`,
       },
     },
+    {
+      resolve: `gatsby-plugin-slug-field`,
+      options: {
+        filter: { internal: { type: `podcastRssFeedEpisode` } },
+        source: (node) => node.item.title,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
