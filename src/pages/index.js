@@ -11,7 +11,9 @@ const IndexPage = ({ data }) => (
     {data.allPodcastRssFeedEpisode.edges.map(({ node }, index) => (
       <div key={index}>
         <p className="episode-date">{node.item.pubDate}</p>
-        <p className="episode-title">{node.item.title}</p>
+        <Link to={`/episodes/${node.fields.slug}/`} className="episode-title">
+          {node.item.title}
+        </Link>
         <p className="episode-summary">{node.item.itunes.summary}</p>
       </div>
     ))}
@@ -25,17 +27,15 @@ export const query = graphql`
     allPodcastRssFeedEpisode {
       edges {
         node {
-          id
           item {
-            guid
             itunes {
-              author
-              duration
-              image
               summary
             }
             pubDate
             title
+          }
+          fields {
+            slug
           }
         }
       }
