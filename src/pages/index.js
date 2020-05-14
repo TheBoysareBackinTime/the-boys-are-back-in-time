@@ -17,6 +17,7 @@ const IndexPage = ({ data }) => (
         <p className="episode-summary">{node.item.itunes.summary}</p>
       </div>
     ))}
+    <Link to="/about-us/">Go to About Us</Link>
   </Layout>
 )
 
