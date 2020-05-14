@@ -38,11 +38,11 @@ const SecondPage = () => (
     </p>
     <p>
       One of the main goals of the podcast is create a platform for people to
-      discover music that is both old and new. So each season will be live, with
-      input from members of our audiences. We will be actively soliciting
-      requests for what to listen to. Sharing actively throughout the year on
-      social media including the song of the day on twitter and discussions on
-      Facebook.
+      discover music that is both old and new. So each season will be
+      interactive, with input from members of our audiences. We will be actively
+      soliciting requests for what to listen to. Sharing actively throughout the
+      year on social media including the song of the day on twitter and
+      discussions on Facebook.
     </p>
     <p>
       Every year is available for selection from 1965 up to the present year.
