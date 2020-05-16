@@ -81,9 +81,12 @@ const SecondPage = () => (
       site. See below for links to those pages:
     </p>
     <ul>
-      <li>Facebook</li>
-      <li>Twitter</li>
-      <li>Instagram</li>
+      <li>
+        <a href="https://twitter.com/TheBoysareBac15">Twitter</a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/theboysarebackintime/">Instagram</a>
+      </li>
     </ul>
     <h2>Who are we?</h2>
     <p>
