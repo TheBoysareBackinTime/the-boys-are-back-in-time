@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -15,6 +16,7 @@ const IndexPage = ({ data }) => (
           {node.item.title}
         </Link>
         <p className="episode-summary">{node.item.itunes.summary}</p>
+        <Img fixed={node.featuredImg.childImageSharp.fixed} />
       </div>
     ))}
     <Link to="/about-us/">Go to About Us</Link>
@@ -37,6 +39,13 @@ export const query = graphql`
           }
           fields {
             slug
+          }
+          featuredImg {
+            childImageSharp {
+              fixed(width: 150) {
+                ...GatsbyImageSharpFixed
+              }
+            }
           }
         }
       }
