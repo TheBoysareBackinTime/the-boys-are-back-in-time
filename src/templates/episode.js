@@ -15,7 +15,7 @@ export default ({ data }) => {
         <h1>{episode.item.title}</h1>
         <Img fixed={episode.featuredImg.childImageSharp.fixed} />
         <AudioPlayer
-          autoPlay
+          autoPlay={false}
           src={episode.item.enclosure.url}
           onPlay={(e) => console.log("onPlay")}
           progressJumpSteps={{ backward: 15000, forward: 30000 }}
