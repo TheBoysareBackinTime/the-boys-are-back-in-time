@@ -16,17 +16,34 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <div
+        style={{
+          display: `flex`,
+          "justify-content": `space-between`,
+          "align-items": `center`,
+        }}
+      >
+        <h1 style={{ margin: 0 }}>
+          <Link
+            to="/"
+            style={{
+              color: `white`,
+              textDecoration: `none`,
+            }}
+          >
+            {siteTitle}
+          </Link>
+        </h1>
         <Link
-          to="/"
+          to="/about-us/"
           style={{
             color: `white`,
-            textDecoration: `none`,
+            "min-width": `5rem`,
           }}
         >
-          {siteTitle}
+          About Us
         </Link>
-      </h1>
+      </div>
     </div>
   </header>
 )

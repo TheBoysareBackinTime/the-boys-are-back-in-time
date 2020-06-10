@@ -102,7 +102,6 @@ const SecondPage = () => (
       listening to those playlists socially was the what helped create the idea
       of this show.
     </p>
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 

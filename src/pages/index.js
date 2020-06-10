@@ -19,7 +19,6 @@ const IndexPage = ({ data }) => (
         <Img fixed={node.featuredImg.childImageSharp.fixed} />
       </div>
     ))}
-    <Link to="/about-us/">Go to About Us</Link>
   </Layout>
 )
 
