@@ -13,14 +13,14 @@ import RadioPublicBadge from "../images/badge-radiopublic.svg"
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="The Boys Are Back In Time Podcast" />
-    <h2 style={{ "text-align": `center` }}>Subscribe in your favorite app</h2>
+    <h2 style={{ textAlign: `center` }}>Subscribe in your favorite app</h2>
     <div
       className="subscribeBadges"
       style={{
         display: `flex`,
-        "flex-wrap": `wrap`,
-        "justify-content": `center`,
-        "margin-bottom": `1rem`,
+        flexWrap: `wrap`,
+        justifyContent: `center`,
+        marginBottom: `1rem`,
       }}
     >
       <a href="">

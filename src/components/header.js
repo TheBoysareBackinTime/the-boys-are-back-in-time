@@ -19,8 +19,8 @@ const Header = ({ siteTitle }) => (
       <div
         style={{
           display: `flex`,
-          "justify-content": `space-between`,
-          "align-items": `center`,
+          justifyContent: `space-between`,
+          alignItems: `center`,
         }}
       >
         <h1 style={{ margin: 0 }}>
@@ -38,7 +38,7 @@ const Header = ({ siteTitle }) => (
           to="/about-us/"
           style={{
             color: `white`,
-            "min-width": `5rem`,
+            minWidth: `5rem`,
           }}
         >
           About Us
