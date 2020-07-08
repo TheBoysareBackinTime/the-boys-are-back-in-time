@@ -11,7 +11,7 @@
     "gatsby-plugin-offline": "^3.0.41",
     "gatsby-plugin-react-helmet": "^3.1.24",
     "gatsby-plugin-sharp": "^2.4.13",
-    "gatsby-plugin-slug-field": "^0.1.0",
+    "gatsby-plugin-slug-field": "^0.2.0",
     "gatsby-source-filesystem": "^2.1.56",
     "gatsby-source-podcast-rss-feed": "^0.1.1",
     "gatsby-transformer-sharp": "^2.3.19",
