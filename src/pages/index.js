@@ -44,18 +44,32 @@ const IndexPage = ({ data }) => (
     </div>
 
     {data.allFile.edges.map(({ node }, index) => (
-      <Img fixed={node.childImageSharp.fixed} />
+      <Img
+        fixed={node.childImageSharp.fixed}
+        style={{ display: `block`, margin: `0 auto` }}
+      />
     ))}
 
-    <h2>Episodes</h2>
+    <h2 style={{ marginTop: `1em`, textDecoration: `underline` }}>Episodes:</h2>
     {data.allPodcastRssFeedEpisode.edges.map(({ node }, index) => (
-      <div key={index}>
-        <p className="episode-date">{node.item.pubDate}</p>
+      <div key={index} style={{ margin: `1em auto` }}>
         <Link to={`/episodes/${node.fields.slug}/`} className="episode-title">
           {node.item.title}
         </Link>
-        <p className="episode-summary">{node.item.itunes.summary}</p>
-        <Img fixed={node.featuredImg.childImageSharp.fixed} />
+        <span style={{ color: `gray` }}>&nbsp;&mdash;&nbsp;</span>
+        <span className="episode-date" style={{ fontFamily: `monospace` }}>
+          {new Date(Date.parse(node.item.pubDate)).toDateString()}
+        </span>
+        <div
+          style={{
+            display: `grid`,
+            gridTemplateColumns: `150px auto`,
+            columnGap: `10px`,
+          }}
+        >
+          <Img fixed={node.featuredImg.childImageSharp.fixed} />
+          <p className="episode-summary">{node.item.itunes.summary}</p>
+        </div>
       </div>
     ))}
   </Layout>
