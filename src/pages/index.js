@@ -43,6 +43,10 @@ const IndexPage = ({ data }) => (
       </a>
     </div>
 
+    {data.allFile.edges.map(({ node }, index) => (
+      <Img fixed={node.childImageSharp.fixed} />
+    ))}
+
     <h2>Episodes</h2>
     {data.allPodcastRssFeedEpisode.edges.map(({ node }, index) => (
       <div key={index}>
@@ -79,6 +83,17 @@ export const query = graphql`
               fixed(width: 150) {
                 ...GatsbyImageSharpFixed
               }
+            }
+          }
+        }
+      }
+    }
+    allFile(filter: { name: { eq: "cover-icon" } }) {
+      edges {
+        node {
+          childImageSharp {
+            fixed(width: 300) {
+              ...GatsbyImageSharpFixed
             }
           }
         }

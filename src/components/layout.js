@@ -12,6 +12,12 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "./layout.css"
 
+// Default theme. ~960B
+import "@vime/core/themes/default.css"
+
+// Optional light theme (extends default). ~400B
+import "@vime/core/themes/light.css"
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
