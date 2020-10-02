@@ -2076,6 +2076,20 @@
   dependencies:
     wonka "^4.0.14"
 
+"@vime/core@^4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@vime/core/-/core-4.2.0.tgz#30c491a201fd041f83643eb8b62499835bc65252"
+  integrity sha512-kL1w0nynovkX5YuGim8wKlr/cBmzWVLvF/viXriL01iQ+HswBAFDxSbONRUyn/R8txb/vm3L4KHvKtYEH+zNkg==
+  dependencies:
+    stencil-wormhole "^3.2.1"
+
+"@vime/react@^4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@vime/react/-/react-4.2.0.tgz#f53fd8f98ea73b707d1ec4bec16921bacf659143"
+  integrity sha512-E+UzvZcKUd3KSp9o0Gj3Bdn7X1SJ5TvZQmqJlGWUKbu9Ly3BY6AUGW8P87YlaF6M3Tw17QdiOSzZAVzvYWjmsA==
+  dependencies:
+    "@vime/core" "^4.2.0"
+
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.9.0.tgz#bd850604b4042459a5a41cd7d338cbed695ed964"
@@ -12693,6 +12707,11 @@ static-extend@^0.1.1:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
+
+stencil-wormhole@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/stencil-wormhole/-/stencil-wormhole-3.2.1.tgz#1f2766c176fe0f8ebded424502a3ae2f239fa06e"
+  integrity sha512-z4vvuR+Pn/KODHbks7u92tUvdfcIzwzPEYwZJ16N9M0TYNFXWQUz0rQCwatZ/VQ8aarQqdFACCw+Q0lEeUk+VQ==
 
 stream-browserify@^2.0.1:
   version "2.0.2"

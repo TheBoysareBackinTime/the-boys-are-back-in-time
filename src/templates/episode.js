@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Img from "gatsby-image"
+import { VimePlayer, VimeAudio } from "@vime/react"
 
 export default ({ data }) => {
   const episode = data.podcastRssFeedEpisode
@@ -10,6 +11,11 @@ export default ({ data }) => {
       <div>
         <h1>{episode.item.title}</h1>
         <Img fixed={episode.featuredImg.childImageSharp.fixed} />
+        <VimePlayer controls>
+          <VimeAudio>
+            <source data-src={episode.item.enclosure.url} type="audio/mp3" />
+          </VimeAudio>
+        </VimePlayer>
         <div
           dangerouslySetInnerHTML={{ __html: episode.item.content_encoded }}
         />
@@ -28,6 +34,9 @@ export const query = graphql`
       item {
         title
         content_encoded
+        enclosure {
+          url
+        }
       }
       featuredImg {
         childImageSharp {
