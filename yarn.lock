@@ -1151,16 +1151,6 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@iconify/icons-mdi@^1.0.46":
-  version "1.0.136"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-mdi/-/icons-mdi-1.0.136.tgz#c7b4e0f41fabe678fe6b26c6001c6337d1518084"
-  integrity sha512-VQ1p4BH8a5zbC94NlsOeMqioTo1UqU9zkcg8E+PEL2kt1uj9T+HOpbMIr34opCnlxlWuSIGxAW6ZO185F2+KrQ==
-
-"@iconify/react@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@iconify/react/-/react-1.1.3.tgz#ebe4d3e5f5dea23cd6a9634acd7a0a25c7414a59"
-  integrity sha512-ReZNJyr89AfED6XZIXkhsJiNv2taT3j1cTo1HVPHMsrKOz6gAYdXtD2kDWF6+GVoFUxpmnO0fMcA6yCyTf6Tow==
-
 "@jest/types@^25.5.0":
   version "25.5.0"
   resolved "https://registry.yarnpkg.com/@jest/types/-/types-25.5.0.tgz#4d6a4793f7b9599fc3680877b856a97dbccf2a9d"
@@ -11303,15 +11293,6 @@ react-focus-lock@^2.3.1:
     react-clientside-effect "^1.2.2"
     use-callback-ref "^1.2.1"
     use-sidecar "^1.0.1"
-
-react-h5-audio-player@^3.1.0:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/react-h5-audio-player/-/react-h5-audio-player-3.4.1.tgz#4cb0991d69317cf0c24652ad2760668c71689c3b"
-  integrity sha512-wAn+ZvCjw04/TnU2EbaAioSkyUe04RrKDFDXbJCjbjR2lsMKvOKHrsP8X1ufuJjU6lU4Zg9MmWbgCmELdX4xhw==
-  dependencies:
-    "@babel/runtime" "^7.10.2"
-    "@iconify/icons-mdi" "^1.0.46"
-    "@iconify/react" "^1.1.3"
 
 react-helmet@^6.0.0:
   version "6.1.0"
