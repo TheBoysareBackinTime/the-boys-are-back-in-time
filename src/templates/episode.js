@@ -10,7 +10,10 @@ export default ({ data }) => {
     <Layout>
       <div>
         <h1>{episode.item.title}</h1>
-        <Img fixed={episode.featuredImg.childImageSharp.fixed} />
+        <Img
+          fixed={episode.featuredImg.childImageSharp.fixed}
+          style={{ display: `block`, margin: `0 auto` }}
+        />
         <VimePlayer controls>
           <VimeAudio>
             <source data-src={episode.item.enclosure.url} type="audio/mp3" />

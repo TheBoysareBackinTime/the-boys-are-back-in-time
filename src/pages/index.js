@@ -44,7 +44,10 @@ const IndexPage = ({ data }) => (
     </div>
 
     {data.allFile.edges.map(({ node }, index) => (
-      <Img fixed={node.childImageSharp.fixed} />
+      <Img
+        fixed={node.childImageSharp.fixed}
+        style={{ display: `block`, margin: `0 auto` }}
+      />
     ))}
 
     <h2>Episodes</h2>
