@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `The Boys Are Back in Time`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `The Boys Are Back in Time is a podcast dedicated to the celebration of music new and old. Conceived under the idea that every year in the modern era contains great music, the podcast tackles music one year at a time.`,
     author: `@gatsbyjs`,
   },
   plugins: [
