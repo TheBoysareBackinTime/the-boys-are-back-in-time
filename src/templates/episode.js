@@ -12,6 +12,12 @@ export default ({ data }) => {
   const matches = originalDescription.match(regex)
   const spotifyElementType = matches[1]
   const spotifyElementKey = matches[0].split("?")[0].substr(-22)
+  const playerSize = {
+    width: "100%",
+    height: 300,
+  }
+  const playerView = "list" // or 'coverart'
+  const playerTheme = "black" // or 'white'
   return (
     <Layout>
       <div>
@@ -30,12 +36,9 @@ export default ({ data }) => {
         />
         <SpotifyPlayer
           uri={`spotify:${spotifyElementType}:${spotifyElementKey}`}
-          size={{
-            width: "100%",
-            height: 300,
-          }}
-          view="list"
-          theme="black"
+          size={playerSize}
+          view={playerView}
+          theme={playerTheme}
         />
       </div>
     </Layout>
