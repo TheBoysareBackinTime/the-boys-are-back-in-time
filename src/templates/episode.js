@@ -10,14 +10,16 @@ export default ({ data }) => {
   const originalDescription = episode.item.content_encoded
   const regex = /https:\/\/open\.spotify\.com\/((user\/[A-Za-z0-9-_]*\/playlist|track|artist|album)|(playlist|track|artist|album))\/[A-Za-z0-9-_?=]*/
   const matches = originalDescription.match(regex)
-  const spotifyElementType = matches[1]
-  const spotifyElementKey = matches[0].split("?")[0].substr(-22)
-  const playerSize = {
-    width: "100%",
-    height: 300,
+  if (matches !== null) {
+    var spotifyElementType = matches[1]
+    var spotifyElementKey = matches[0].split("?")[0].substr(-22)
+    var playerSize = {
+      width: "100%",
+      height: 300,
+    }
+    var playerView = "list" // or 'coverart'
+    var playerTheme = "black" // or 'white'
   }
-  const playerView = "list" // or 'coverart'
-  const playerTheme = "black" // or 'white'
   return (
     <Layout>
       <div>
@@ -34,12 +36,14 @@ export default ({ data }) => {
         <div
           dangerouslySetInnerHTML={{ __html: episode.item.content_encoded }}
         />
-        <SpotifyPlayer
-          uri={`spotify:${spotifyElementType}:${spotifyElementKey}`}
-          size={playerSize}
-          view={playerView}
-          theme={playerTheme}
-        />
+        {matches !== null && (
+          <SpotifyPlayer
+            uri={`spotify:${spotifyElementType}:${spotifyElementKey}`}
+            size={playerSize}
+            view={playerView}
+            theme={playerTheme}
+          />
+        )}
       </div>
     </Layout>
   )
