@@ -24,20 +24,30 @@ const IndexPage = ({ data }) => (
       }}
     >
       <a href="">
-        <img src={AppleBadge} style={{ height: `50px`, margin: `.25rem` }} />
+        <img
+          src={AppleBadge}
+          alt="Listen on Apple Podcasts badge"
+          style={{ height: `50px`, margin: `.25rem` }}
+        />
       </a>
       <a href="">
-        <img src={OvercastBadge} style={{ height: `50px`, margin: `.25rem` }} />
+        <img
+          src={OvercastBadge}
+          alt="Listen on Overcast badge"
+          style={{ height: `50px`, margin: `.25rem` }}
+        />
       </a>
       <a href="">
         <img
           src={PocketCastsBadge}
+          alt="Listen on Pocket Casts badge"
           style={{ height: `50px`, margin: `.25rem` }}
         />
       </a>
       <a href="">
         <img
           src={RadioPublicBadge}
+          alt="Listen on RadioPublic badge"
           style={{ height: `50px`, margin: `.25rem` }}
         />
       </a>
