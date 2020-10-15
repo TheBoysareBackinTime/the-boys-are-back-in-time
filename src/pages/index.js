@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import AppleBadge from "../images/badge-apple-podcasts.svg"
+import SpotifyBadge from "../images/badge-spotify.svg"
 import OvercastBadge from "../images/badge-overcast.svg"
 import PocketCastsBadge from "../images/badge-pocket-casts.svg"
 import RadioPublicBadge from "../images/badge-radiopublic.svg"
@@ -27,6 +28,13 @@ const IndexPage = ({ data }) => (
         <img
           src={AppleBadge}
           alt="Listen on Apple Podcasts badge"
+          style={{ height: `50px`, margin: `.25rem` }}
+        />
+      </a>
+      <a href="https://open.spotify.com/show/6sB1f2piJT48yiRkMro6tf?si=q4fZXWH3RjuKCBXEzfRsAw">
+        <img
+          src={SpotifyBadge}
+          alt="Listen on Spotify badge"
           style={{ height: `50px`, margin: `.25rem` }}
         />
       </a>
