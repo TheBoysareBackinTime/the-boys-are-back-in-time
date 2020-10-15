@@ -17,6 +17,7 @@ module.exports = {
       resolve: `gatsby-source-podcast-rss-feed`,
       options: {
         feedURL: `https://feeds.buzzsprout.com/1004428.rss`,
+        id: `guid`,
       },
     },
     {

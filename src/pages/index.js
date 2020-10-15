@@ -23,21 +23,31 @@ const IndexPage = ({ data }) => (
         marginBottom: `1rem`,
       }}
     >
-      <a href="">
-        <img src={AppleBadge} style={{ height: `50px`, margin: `.25rem` }} />
-      </a>
-      <a href="">
-        <img src={OvercastBadge} style={{ height: `50px`, margin: `.25rem` }} />
-      </a>
-      <a href="">
+      <a href="https://podcasts.apple.com/us/podcast">
         <img
-          src={PocketCastsBadge}
+          src={AppleBadge}
+          alt="Listen on Apple Podcasts badge"
           style={{ height: `50px`, margin: `.25rem` }}
         />
       </a>
-      <a href="">
+      <a href="https://overcast.fm/">
+        <img
+          src={OvercastBadge}
+          alt="Listen on Overcast badge"
+          style={{ height: `50px`, margin: `.25rem` }}
+        />
+      </a>
+      <a href="http://pca.st/">
+        <img
+          src={PocketCastsBadge}
+          alt="Listen on Pocket Casts badge"
+          style={{ height: `50px`, margin: `.25rem` }}
+        />
+      </a>
+      <a href="https://radiopublic.com/">
         <img
           src={RadioPublicBadge}
+          alt="Listen on RadioPublic badge"
           style={{ height: `50px`, margin: `.25rem` }}
         />
       </a>
@@ -45,6 +55,7 @@ const IndexPage = ({ data }) => (
 
     {data.allFile.edges.map(({ node }, index) => (
       <Img
+        key={index}
         fixed={node.childImageSharp.fixed}
         style={{ display: `block`, margin: `0 auto` }}
       />

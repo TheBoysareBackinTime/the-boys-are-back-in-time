@@ -3,9 +3,23 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Img from "gatsby-image"
 import { VimePlayer, VimeAudio } from "@vime/react"
+import SpotifyPlayer from "react-spotify-player"
 
 export default ({ data }) => {
   const episode = data.podcastRssFeedEpisode
+  const originalDescription = episode.item.content_encoded
+  const regex = /https:\/\/open\.spotify\.com\/((user\/[A-Za-z0-9-_]*\/playlist|track|artist|album)|(playlist|track|artist|album))\/[A-Za-z0-9-_?=]*/
+  const matches = originalDescription.match(regex)
+  if (matches !== null) {
+    var spotifyElementType = matches[1]
+    var spotifyElementKey = matches[0].split("?")[0].substr(-22)
+    var playerSize = {
+      width: "100%",
+      height: 300,
+    }
+    var playerView = "list" // or 'coverart'
+    var playerTheme = "black" // or 'white'
+  }
   return (
     <Layout>
       <div>
@@ -22,6 +36,14 @@ export default ({ data }) => {
         <div
           dangerouslySetInnerHTML={{ __html: episode.item.content_encoded }}
         />
+        {matches !== null && (
+          <SpotifyPlayer
+            uri={`spotify:${spotifyElementType}:${spotifyElementKey}`}
+            size={playerSize}
+            view={playerView}
+            theme={playerTheme}
+          />
+        )}
       </div>
     </Layout>
   )
