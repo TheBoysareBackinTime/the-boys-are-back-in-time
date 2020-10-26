@@ -12,11 +12,15 @@ module.exports = {
         name: `blog`,
         path: `${__dirname}/content/blog`,
       },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `assets`,
         path: `${__dirname}/content/assets`,
       },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
@@ -57,7 +61,8 @@ module.exports = {
           `gatsby-remark-smartypants`,
         ],
       },
-    }`gatsby-transformer-sharp`,
+    },
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
