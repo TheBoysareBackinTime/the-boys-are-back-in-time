@@ -6,9 +6,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import AppleBadge from "../images/badge-apple-podcasts.svg"
+import SpotifyBadge from "../images/badge-spotify.svg"
 import OvercastBadge from "../images/badge-overcast.svg"
 import PocketCastsBadge from "../images/badge-pocket-casts.svg"
-import RadioPublicBadge from "../images/badge-radiopublic.svg"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -23,31 +23,31 @@ const IndexPage = ({ data }) => (
         marginBottom: `1rem`,
       }}
     >
-      <a href="https://podcasts.apple.com/us/podcast">
+      <a href="https://podcasts.apple.com/us/podcast/the-boys-are-back-in-time/id1535362040">
         <img
           src={AppleBadge}
           alt="Listen on Apple Podcasts badge"
           style={{ height: `50px`, margin: `.25rem` }}
         />
       </a>
-      <a href="https://overcast.fm/">
+      <a href="https://open.spotify.com/show/6sB1f2piJT48yiRkMro6tf?si=q4fZXWH3RjuKCBXEzfRsAw">
+        <img
+          src={SpotifyBadge}
+          alt="Listen on Spotify badge"
+          style={{ height: `50px`, margin: `.25rem` }}
+        />
+      </a>
+      <a href="https://overcast.fm/itunes1535362040/the-boys-are-back-in-time">
         <img
           src={OvercastBadge}
           alt="Listen on Overcast badge"
           style={{ height: `50px`, margin: `.25rem` }}
         />
       </a>
-      <a href="http://pca.st/">
+      <a href="https://pca.st/itunes/1535362040">
         <img
           src={PocketCastsBadge}
           alt="Listen on Pocket Casts badge"
-          style={{ height: `50px`, margin: `.25rem` }}
-        />
-      </a>
-      <a href="https://radiopublic.com/">
-        <img
-          src={RadioPublicBadge}
-          alt="Listen on RadioPublic badge"
           style={{ height: `50px`, margin: `.25rem` }}
         />
       </a>
