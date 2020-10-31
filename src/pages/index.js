@@ -9,7 +9,6 @@ import AppleBadge from "../images/badge-apple-podcasts.svg"
 import SpotifyBadge from "../images/badge-spotify.svg"
 import OvercastBadge from "../images/badge-overcast.svg"
 import PocketCastsBadge from "../images/badge-pocket-casts.svg"
-import RadioPublicBadge from "../images/badge-radiopublic.svg"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -49,13 +48,6 @@ const IndexPage = ({ data }) => (
         <img
           src={PocketCastsBadge}
           alt="Listen on Pocket Casts badge"
-          style={{ height: `50px`, margin: `.25rem` }}
-        />
-      </a>
-      <a href="https://radiopublic.com/">
-        <img
-          src={RadioPublicBadge}
-          alt="Listen on RadioPublic badge"
           style={{ height: `50px`, margin: `.25rem` }}
         />
       </a>
