@@ -1,7 +1,8 @@
 backend:
   name: github
   repo: TheBoysareBackinTime/the-boys-are-back-in-time
-  branch: master
+
+site_url: https://theboysarebackintime.com
 
 media_folder: static/img
 public_folder: /img
