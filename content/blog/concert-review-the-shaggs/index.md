@@ -1,0 +1,32 @@
+---
+title: "Concert Review: The Shaggs"
+date: 2020-11-13T01:50:28.150Z
+description: "A review of The Shaggs concert at State Theater in Portland Maine in 2015 "
+---
+
+
+* ![](https://lh5.googleusercontent.com/TzzkrxGmSycBhml03XyzrsJ-RactQ6PC4JGPoSnudw81Tsyf-P8wrjqjQaiVJbZzeuwN1hfc9Kd3HNBoXLNIeh-Dv5eMKHkBQikLZAJ6stPt1xLSZCDlm3n_1cDrX1U7ecfNKM66)
+
+I love going to concerts. Very little gets me more excited than when I am on my way to see a great artist play live music. I have had shows that changed my life for the better and shows that disappointed me. Looking back on all the shows I have been to, The Shaggs stands above them all for shock factor. Below is my story of seeing this legendary group. 
+
+I was on my way to see Neutral Milk Hotel perform at the State Theater in Portland Maine with some friends. We were sharing a room at the Holiday Inn and were all very hyped because it was our first time in Portland, the first time we went on a trip like this, and we all loved the band. On my way up to Maine I got a text from Bobby (a founding contributor to this site). The text said something like this: “Hey Bryan, heard you were going to see Neutral Milk Hotel tonight. I saw them last night at Mass MOCA and they were incredible. The opening band is out of this world. Make sure you get there to see them but DON’T listen to them beforehand. Trust me, it will change your life.” He was not wrong. When I repeated the text to my friends our excitement grew, and our planning shifted to ensure we would arrive at the venue before the opening band went on. 
+
+
+
+I am going to pause here for those who may not know who the Shaggs are. They were a group of three girls who formed a band in the late sixties when their father became convinced by a palm reader that his daughters were destined to be famous musicians. This wasn’t some side passion of his either, they dropped out of school, he bought them their instruments, tried to give them lessons and insisted they record their music. What follows is a group of untrained children creating music. To put it lightly, they don’t do well. There is a lack of coherent rhythm, melody, and it sounds like what you would expect from children being given instruments and asked to come up with something on the spot, which is basically what happened. If you haven’t heard them before, please do yourself a favor and listen to the classic [“Halloween”](https://www.youtube.com/watch?v=11_nsW151tg&list=PLu4DmSt2rZB6X4V2plKUiPXYoK4k9kXRV) in its entirety. Some people try to praise the music as free form, but to me this is a real The Emperor Wears No Clothes moment. You are trying too hard if you try to convince me that Halloween is unironically good music. I don’t hold it against the Shaggs either, they were children. 
+
+[![](https://lh6.googleusercontent.com/Imo6KB6Xh_V6BH7mga3jy622ZgDb-khgyOYdX10uCiG6jgA8aq2fyu16KfrJi59oVLgfCDIWa_59QOznF_KyjQfiRvbnyYOoGArGmcdkjfBg-zJBwPDlmZzOD4fudJ7yQBjHkcpB)](https://www.youtube.com/watch?v=11_nsW151tg)
+
+So we took Bobby’s advice to heart and never listened to the Shaggs. We arrived at the hotel at the same time as some of the members of Neutral Milk Hotel were outside smoking a cigarette. The man who played the saw immediately stood out to me so we went over and told them we were excited for the show. Star struck and awkward I decided that the best topic of conversation would be all the great things I had heard about the opener. The saw player (Julian Koster) gave me a look of complete confusion, which should have been our first warning sign. 
+
+From there our day proceeded in Portland as cliché as it possibly could, waiting in line at Duck Fat only to give up out of hunger and go to the Oyster place across the street. Our fourth friend had just arrived from gambling all night at a Casino in Connecticut and the portion sizes and prices left us eating leftovers from another table. Something I have never done before or since. We then proceeded to bar hop and explore the downtown area. Realizing we were running out of time we made the snap decision to grab horrible bread pizza at one of the bars, grab some liquor and stop back at the room. To avoid paying venue prices for drinks, we drank heavily in the hotel. Good and drunk, we proceeded to the State Theater. 
+
+![](https://lh5.googleusercontent.com/7kAWQ74rDBVHbBfNlYDj6UdExQTcJuzVuCzXWpistEf5J9lRAWjEineSrFfPg0GvPhsRN-eLAVaNUNWAct8-_lC7TUhhiqdnC8qBlkDpIadlDCdYD1PkJLTOqSEEVjklvha57QR6)
+
+We arrive in time, grab some beers and get ourselves a good spot. Giddy with excitement I watched as a group of old ladies took the stage. What followed could only be described as hysteria. The excitement turned to shock, horror, and ultimately amusement as we all realized what was happening. They. Were. So. Bad. My friends thought I had tricked them. I had not. The drinking intensified. The other concert goers appeared to be in a similar state of disarray. I saw looks of disgust, hipsters covering their ears, and people leaving. The friend who had stayed up all night was locked into position shaking his head. It was as if you got a bunch of Mom’s together telling them they were going to a Celine Dion show, only to have Nine Inch Nails perform. It was hard to tell whether they were trolling us or if it was real. During Halloween I was convinced this was an elaborate prank Neutral Milk Hotel pulled on hipsters after their many years of hibernation. A sort of filter to prevent their music from being overly commercialized. I had no idea, we hadn’t looked up a thing. The only joy was driven by the sheer absurdity of our situation, the music was horrible. The aforementioned “Halloween” served as the crescendo of silliness as the old ladies could be heard singing “The ghosts will spook, the spooks will scare, why, even Dracula will be there.” I was in a state of shock until Neutral Milk Hotel came on and played an excellent show. 
+
+I have to give Bobby credit. With a few simple texts he dramatically changed the course of our night and set up a beautiful shock. I wouldn’t have wanted it any other way. 
+
+
+
+10/10
