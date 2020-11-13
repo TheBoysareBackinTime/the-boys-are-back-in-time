@@ -3,7 +3,7 @@ title: "Concert Review: The Shaggs"
 date: 2020-11-13T01:50:28.150Z
 description: "A review of The Shaggs concert at State Theater in Portland Maine in 2015 "
 ---
-* ![The Shaggs performing their music in the late 1960s](https://lh5.googleusercontent.com/TzzkrxGmSycBhml03XyzrsJ-RactQ6PC4JGPoSnudw81Tsyf-P8wrjqjQaiVJbZzeuwN1hfc9Kd3HNBoXLNIeh-Dv5eMKHkBQikLZAJ6stPt1xLSZCDlm3n_1cDrX1U7ecfNKM66 "The Shaggs")
+![The Shaggs performing their music in the late 1960s](https://lh5.googleusercontent.com/TzzkrxGmSycBhml03XyzrsJ-RactQ6PC4JGPoSnudw81Tsyf-P8wrjqjQaiVJbZzeuwN1hfc9Kd3HNBoXLNIeh-Dv5eMKHkBQikLZAJ6stPt1xLSZCDlm3n_1cDrX1U7ecfNKM66 "The Shaggs")
 
 I love going to concerts. Very little gets me more excited than when I am on my way to see a great artist play live music. I have had shows that changed my life for the better and shows that disappointed me. Looking back on all the shows I have been to, The Shaggs stands above them all for shock factor. Below is my story of seeing this legendary group. 
 
