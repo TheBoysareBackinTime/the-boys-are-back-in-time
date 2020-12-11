@@ -34,17 +34,35 @@ const Header = ({ siteTitle }) => (
             {siteTitle}
           </Link>
         </h1>
-        <Link
-          to="/about-us/"
-          style={{
-            color: `white`,
-            minWidth: `5rem`,
-          }}
-        >
-          About Us
-        </Link>
       </div>
     </div>
+    <nav>
+      <ul
+        style={{
+          listStyle: `none`,
+          margin: `0 20px`,
+          padding: 0,
+          display: `flex`,
+          justifyContent: `space-around`,
+        }}
+      >
+        <li>
+          <Link to="/blog/" style={{ color: `white` }}>
+            Blog
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/about-us/"
+            style={{
+              color: `white`,
+            }}
+          >
+            About Us
+          </Link>
+        </li>
+      </ul>
+    </nav>
   </header>
 )
 
