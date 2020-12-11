@@ -1,10 +1,12 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 export default ({ data }) => {
   return (
     <Layout>
+      <SEO title="Blog" />
       <h2 style={{ textAlign: `center` }}>Blog Posts</h2>
       {data.allMarkdownRemark.edges.map(({ node }, index) => (
         <>
