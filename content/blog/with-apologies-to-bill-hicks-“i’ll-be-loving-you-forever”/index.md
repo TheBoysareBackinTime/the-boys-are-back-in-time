@@ -9,11 +9,7 @@ Listening to the billboard for 1988 I stopped in my tracks when I heard “Shake
 
 Bill Hicks late 80s stand up focused a lot on music and the banality of pop music. He suggested that songs like “Shake your Love” were bad for the youth and bad for culture because they promoted a vision of bland consumerism when compared to the heroes of the late 60s who rocked out and cried for revolution. Just listen to him yelling about passionless New Kids on the Block. Fair warning, Hicks and contemporaries like Sam Kinnison yelled a lot when doing stand up. (note this is not the only version of this bit and anyone familiar with Hicks would know this is a topic he frequently revisits)
 
-<https://www.youtube.com/watch?v=IiqznC2ROfI>
-
 <iframe width="1180" height="664" src="https://www.youtube.com/embed/IiqznC2ROfI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-![](https://lh4.googleusercontent.com/yqOUkx9CJIov9FaN-2bS2l_idPjP2q1yZUNhHC3fVEo2_LATrnLKARkchVAzzr3OskxTfpostMI-2Xu0CP1xOGIf0sK_hOuVFTQxFpCViMSlS28ISKAf3HLfHJnLZD2_jnNQNkiu)
 
 TLDW: Hicks shouts as much as he jokes about the lack of passion in popular music, and it’s promotion of a shallow, consumer culture. He wants his musicians to play from their heart, shouting loudly as he enshrines 60s artists with the passion he believes we’ve lost.  
 
@@ -33,9 +29,7 @@ New Kids on the Block vs. The Knack:
 
 ![](gty_new_kids_on_the_block_jc_150225_16x9_992.jpg "New Kids on the Block")
 
-![](the_knack_press_photo.jpg "The Knack")
-
-
+![](capitol.jpg "The Knack")
 
 Lastly, let’s look back to the time that Hicks is memorializing: the late 60s. The number one song in 1967, the summer of love, was from a movie “To Sir with Love”. While considerably less cheesy than the late 70s and late 80s, it is nonetheless a silly love song as Paul McCartney would say. So while visions of Haight Ashbury and the great music of 1967 are etched in our collective memory of that time, if you were in any given place during that year the song you were most likely to hear on the radio was a straightforward, light-hearted, love song. 
 
@@ -46,8 +40,6 @@ The reason the most banal straight forward music rides to the top is that it’s
 **Play from your Fucking Heart**
 
 Meanwhile in 1988, artists that stand the test of time most definitely played from their fucking heart. Arguably the most anti-authoritarian song to ever gain mainstream success is released in “Fuck the Police”. You want to talk about passion? N.W.A probably put their lives in danger releasing that song, and the delivery is nothing if not passionate. Their attitude embodies nearly everything Bill Hicks stands for. 
-
-![](publicenemyittakesanationofmillionstoholdusback.jpg)
 
 In a similar vein, Public Enemy also played from their fucking heart. Listening to “Bring the Noise”, and you can feel the same energy that inspired Dylan, Hendrix, or Lennon to write some of the most passionate music ever released. 
 
