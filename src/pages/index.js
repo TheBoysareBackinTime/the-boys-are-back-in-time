@@ -79,7 +79,7 @@ const IndexPage = ({ data }) => (
           }}
         >
           <Img fixed={node.featuredImg.childImageSharp.fixed} />
-          <p className="episode-summary">{node.item.itunes.summary}</p>
+          <p className="episode-summary">{node.item.contentSnippet}</p>
         </div>
       </div>
     ))}
@@ -94,9 +94,7 @@ export const query = graphql`
       edges {
         node {
           item {
-            itunes {
-              summary
-            }
+            contentSnippet
             pubDate
             title
           }
